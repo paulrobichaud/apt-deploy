@@ -1,0 +1,18 @@
+apt-deploy (13.04) precise; urgency=low
+
+  * Fixed root logon
+  * will now always log in as root to remote systems
+  * Will now look for host-list.conf in /etc/apt-deploy if none is
+    specified with -f switch.   Will now execute apt-get as super user.
+  * Added ability to parse host list file.  Added function to execute
+    apt-get command on remote system using stdin.
+  * Testing file parsing. DO NOT USE
+  * Initial debianization
+
+ -- Paul Robichaud <paul@paulrobichaud.com>  Sat, 06 Apr 2013 20:33:12 -0500
+
+apt-deploy (0.1-public1) precise; urgency=low
+
+  * Initial release.
+
+ -- Paul Robichaud <paul@paulrobichaud.com>  Sat, 06 Apr 2013 11:45:38 -0500

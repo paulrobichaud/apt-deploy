@@ -1,0 +1,6 @@
+project = apt-deploy
+version = 12.04
+template = ubuntu-cli
+version_ubuntu-application = 12.04
+lp_id = apt-deploy
+ppa = apt-deploy
